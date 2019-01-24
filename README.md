@@ -18,8 +18,6 @@ __Python basics with colab__
       [Ziyue](https://github.com/ZiyueNie/19ma573ZiyueNie),
       [Chenyu](https://github.com/wuchenyu38/18ma573chenyuwu),
 
-      
-
 __Finite difference operators with python functions__
 - First order finite difference - [ipynb](src/first_fd_v01.ipynb)
 - Convergence order - [ipynb](src/ffd_convergence_rate_v01.ipynb)
@@ -41,3 +39,6 @@ __Volatility calibration__
   - (hw) IV - [ipynb](src/hw_implied_vol.ipynb)
 - Volatility smile - [ipynb](src/vol_smile.ipynb)
 - Volatility calibration for BSM - [ipynb](src/bsm_calibration.ipynb)
+
+__Monte Carlo__
+- Monte Carlo basics: Estimating $\pi$ - [pdf](src/pi_mc_01.pdf)
