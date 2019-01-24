@@ -23,6 +23,7 @@ __Finite difference operators with python functions__
 - Convergence order - [ipynb](src/ffd_convergence_rate_v01.ipynb)
   - (hw2-1) Second order finite difference operator - [ipynb](src/second_fd_v01.ipynb) 
   - (hw2-2) Finite difference operator with higher order convergence - [ipynb](src/ex_fd_v01.ipynb)
+    - [presenter Thomas](https://github.com/TALeonard/19ma573thomasleonard)
   - (hw) A discovery by Wenhao - [ipynb](https://nbviewer.jupyter.org/github/songqsh/18ma573pub/blob/master/src/fd_ex_01.ipynb)
 
 __BSM option price__
