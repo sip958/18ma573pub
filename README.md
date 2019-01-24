@@ -9,7 +9,7 @@ __Python basics with colab__
 - Evironment setups with GitHub and Colab - [ipynb](src/first_notebook_v01.ipynb)
 - Python notebook introduction - [ipynb](src/python_notebook.ipynb)
 - Pandas basics - [ipynb](src/pandas_basics_v01.ipynb)
-  - (hw) GitHub+Colab setup - [ipynb](src/hw_github_colab.ipynb)
+  - (hw1) GitHub+Colab setup - [ipynb](src/hw_github_colab.ipynb)
     - (Solns)
       [Emily](https://github.com/hechen2020/19ma573HuixinChen),
       [Thomas](https://github.com/TALeonard/19ma573thomasleonard),
@@ -21,8 +21,8 @@ __Python basics with colab__
 __Finite difference operators with python functions__
 - First order finite difference - [ipynb](src/first_fd_v01.ipynb)
 - Convergence order - [ipynb](src/ffd_convergence_rate_v01.ipynb)
-  - (hw) Second order finite difference operator - [ipynb](src/second_fd_v01.ipynb) 
-  - (hw) Finite difference operator with higher order convergence - [ipynb](src/ex_fd_v01.ipynb)
+  - (hw2-1) Second order finite difference operator - [ipynb](src/second_fd_v01.ipynb) 
+  - (hw2-2) Finite difference operator with higher order convergence - [ipynb](src/ex_fd_v01.ipynb)
   - (hw) A discovery by Wenhao - [ipynb](https://nbviewer.jupyter.org/github/songqsh/18ma573pub/blob/master/src/fd_ex_01.ipynb)
 
 __BSM option price__
@@ -42,3 +42,4 @@ __Volatility calibration__
 
 __Monte Carlo__
 - Monte Carlo basics: Estimating $\pi$ - [pdf](doc/pi_mc_02.pdf)
+  - (hw) 
