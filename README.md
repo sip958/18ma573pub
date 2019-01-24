@@ -16,7 +16,7 @@ __Python basics with colab__
       [Zhiyuan](https://github.com/ZhyShe/18ma573ZhiyuanShe),
       [Wenhao](https://github.com/wqiu96/19ma573WenhaoQIU),
       [Ziyue](https://github.com/ZiyueNie/19ma573ZiyueNie),
-      [presenter: Chenyu](https://github.com/wuchenyu38/18ma573chenyuwu),
+      [presenter-Chenyu](https://github.com/wuchenyu38/18ma573chenyuwu),
 
 __Finite difference operators with python functions__
 - First order finite difference - [ipynb](src/first_fd_v01.ipynb)
