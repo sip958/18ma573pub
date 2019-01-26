@@ -46,4 +46,4 @@ __Monte Carlo__
 - Monte Carlo basics: Estimating $\pi$ - [pdf](doc/pi_mc_02.pdf) - [ipynb](src/pi.ipynb)
   - (hw) - [ipynb](src/hw_mc_01.ipynb)
   - (hw) - [ipynb](src/hw_mc_02.ipynb)
-  
+- Ordinary Monte carlo: Definite integral evaluation - [pdf](doc/omc_integral_01.pdf)
