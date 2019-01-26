@@ -40,7 +40,7 @@ __Volatility calibration__
   - (hw3-4 by mercury) IV - [ipynb](src/hw_implied_vol.ipynb)
 - Volatility smile - [ipynb](src/vol_smile.ipynb)
 - Volatility calibration for BSM - [ipynb](src/bsm_calibration.ipynb)
-  - (hw) [ipynb](src/hw_bsm_calibration.ipynb)
+  - (hw) [md](src/hw_bsm_calibration.md)
 
 __Monte Carlo__
 - Monte Carlo basics: Estimating $\pi$ - [pdf](doc/pi_mc_02.pdf) - [ipynb](src/pi.ipynb)
