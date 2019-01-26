@@ -3,4 +3,4 @@ The objective is to get familiar with model calibration.
 - compute IV with your bsm price engine for each option price. You are going to use USD Libor 3-month for your interest rate input. 
 - plot a figure of strike v.s. IV. Do you find any volatility smile? 
 - calibrate bsm volatility for the option prices, denote it by $\hat \sigma$. You may use any error function for the calibration purpose.
-- 
+- reproduce option prices using your price engine with calibrated volatility, then compare how close they are to the market prices.
