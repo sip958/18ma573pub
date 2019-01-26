@@ -42,7 +42,7 @@ __Volatility calibration__
 - Volatility calibration for BSM - [ipynb](src/bsm_calibration.ipynb)
 
 __Monte Carlo__
-- Monte Carlo basics: Estimating $\pi$ - [pdf](doc/pi_mc_02.pdf)
+- Monte Carlo basics: Estimating $\pi$ - [pdf](doc/pi_mc_02.pdf) - [ipynb](src/pi.ipynb)
   - (hw) - [ipynb](src/hw_mc_01.ipynb)
   - (hw) - [ipynb](src/hw_mc_02.ipynb)
   
