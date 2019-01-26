@@ -47,3 +47,4 @@ __Monte Carlo__
   - (hw) - [ipynb](src/hw_mc_01.ipynb)
   - (hw) - [ipynb](src/hw_mc_02.ipynb)
 - Ordinary Monte carlo: Definite integral evaluation - [pdf](doc/omc_integral_01.pdf)
+  - (hw) - [pdf](doc/hw_omc_integral.pdf)
