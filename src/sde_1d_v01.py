@@ -139,21 +139,7 @@ def bsm_geometric_asian_price(self,
                           maturity = 1, 
                           num_step = 4 #patition number
                           ):
-    vanilla_opt = VanillaOption(otype, strike, maturity) 
-    r = self.drift_ratio 
-    sigma = self.vol_ratio
-    
-    mu = r - sigma**2/2
-    mu_hat = mu/2
-    sigma_hat_sqr = sigma**2*(num_step*2+1)/6/(num_step+1)
-
-    sigma_hat = np.sqrt(sigma_hat_sqr)
-    r_hat = mu_hat + sigma_hat**2/2
-
-    
-    gbm1 = Gbm_1d(init_state=self.init_state, 
-                  drift_ratio=r_hat, vol_ratio=sigma_hat)
-    return gbm1.bsm_price(vanilla_opt)*np.exp((r_hat -r)*maturity)
+    print('input your code here')
 
 Gbm_1d.bsm_geometric_asian_price = bsm_geometric_asian_price
 
