@@ -41,7 +41,7 @@ __Volatility calibration__
 - Volatility smile - [ipynb](src/vol_smile_v01.ipynb)
 - Volatility calibration for BSM - [ipynb](src/bsm_calibration_v01.ipynb)
   - (hw) [ipynb](src/hw_bsm_calibration.ipynb)
-- BSM + Geometric asian option - [ipynb](src/bsm_geometric_asian_option.ipynb)
+- BSM + Geometric asian option - [ipynb](doc/bsm_geometric_asian_option.pdf)
 
 __Monte Carlo__
 - Monte Carlo basics: Estimating $\pi$ - [pdf](doc/pi_mc_02.pdf) - [ipynb](src/pi.ipynb)
