@@ -38,8 +38,8 @@ __Volatility calibration__
 
 - Implied volatility - [ipynb](src/implied_vol_v01.ipynb)
   - (hw3-4 by mercury) IV - [ipynb](src/hw_implied_vol.ipynb)
-- Volatility smile - [ipynb](src/vol_smile.ipynb)
-- Volatility calibration for BSM - [ipynb](src/bsm_calibration.ipynb)
+- Volatility smile - [ipynb](src/vol_smile_v01.ipynb)
+- Volatility calibration for BSM - [ipynb](src/bsm_calibration_v01.ipynb)
   - (hw) [ipynb](src/hw_bsm_calibration.ipynb)
 - BSM + Geometric asian option - [ipynb](src/bsm_geometric_asian_option.ipynb)
 __Monte Carlo__
