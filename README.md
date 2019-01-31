@@ -25,11 +25,13 @@ __Finite difference operators with python functions__
   - (hw2-2) Finite difference operator with higher order convergence - [ipynb](src/ex_fd_v01.ipynb)
     - [presenter Thomas](https://github.com/TALeonard/19ma573thomasleonard)
   - (hw3-1 by venus) A discovery by Wenhao - [ipynb](https://nbviewer.jupyter.org/github/songqsh/18ma573pub/blob/master/src/fd_ex_01.ipynb)
+      - presented by [wenhao](https://github.com/wqiu96/19ma573WenhaoQIU)
 
 __BSM option price__
 - European call/put option class - [ipynb](src/european_options_class.ipynb)
   - (hw3-2 by mercury) payoff diagram of butterfly - 
   [ipynb](src/option_combinations.ipynb)
+      - [zhiyuan](https://github.com/ZhyShe/18ma573ZhiyuanShe)
 - BSM formula - [ipynb](src/bsm_formula_v01.ipynb)
   - (hw3-3 by venus) Bsm price change - [ipynb](src/bsm_price_change.ipynb)
 - Importing modules - [md](src/import_modules.md)
