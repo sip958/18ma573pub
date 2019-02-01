@@ -53,36 +53,6 @@ def euler_1d_diff(self, xh_i, dt, dw):
 Sde_1d.euler_diff = euler_1d_diff
 
 
-# In[4]:
-
-
-'''==========
-euler method as a method of SDE_1d
-input:
-    time grid: np.array (t_i: i = 0, 1, ..., n)
-output: 
-    euler solution: np.array (Xh_i: i = 0, 1, ..., n)
-==========='''
-
-def euler_1d(self, grid):
-    #step_size dt
-    dt = np.diff(grid)
-    
-    #generate 2d bm icrement
-    dw = np.random.normal(0, np.sqrt(dt))
-
-    #initialize euler solution
-    x0 = self.init_state #1_d array
-    xh = x0 + np.zeros(grid.shape)
-    
-    #run euler
-    for i in range(dt.size):
-        xh[i+1] = xh[i] + self.euler_diff(xh[i], dt[i], dw[i]) #euler iteration        
-    return xh
-
-Sde_1d.euler = euler_1d
-
-
 
 
 '''============
@@ -136,23 +106,7 @@ Gbm_1d.bsm_price = bsm_price
 
 # In[5]:
 
-if __name__ == '__main__':    
-    '''=============
-    test SDE_1d.euler
-    plot paths
-    =============='''
-    sde1 = Sde_1d(init_state=0., drift=lambda x:0, vol=lambda x:1.) #By default, it is std bm
-    grid = np.linspace(0,1,100)
-    
-    plt.figure()    
-    plt.title('test Sde_1d.euler')
-    plt.xlabel('time')
-    plt.ylabel('state')
-    for i in range(5):
-        xh = sde1.euler(grid)
-        plt.plot(grid, xh)
-
-    
+if __name__ == '__main__':       
     '''============
     test:
         plot Gbm paths
