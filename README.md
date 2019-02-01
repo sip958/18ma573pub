@@ -46,6 +46,7 @@ __Volatility calibration__
 - BSM + Geometric asian option - [pdf](doc/bsm_geometric_asian_option.pdf)
     - (hw) calibration performance - [pdf](doc/hw_bsm_geometric_asian_option.pdf)
 - week4 notes - [pdf](doc/week4.pdf)
+
 __Monte Carlo__
 - Monte Carlo basics: Estimating $\pi$ - [pdf](doc/pi_mc_02.pdf) - [ipynb](src/pi.ipynb)
   - (hw) - [ipynb](src/hw_mc_01.ipynb)
