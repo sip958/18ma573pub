@@ -30,29 +30,6 @@ class Sde_1d:
         
 
 
-# In[3]:
-
-
-'''================
-euler_1d_difference 
-input:
-    xh_i:  current state
-    dt: time diff
-    dw: bm increase
-output:
-    xh_i_diff: increase for euler solution
-=================='''
-
-def euler_1d_diff(self, xh_i, dt, dw):
-    #set SDE param
-    mu = self.drift
-    sigma = self.vol
-    
-    return mu(xh_i)*dt + sigma(xh_i)*dw
-
-Sde_1d.euler_diff = euler_1d_diff
-
-
 
 
 '''============
@@ -107,21 +84,7 @@ Gbm_1d.bsm_price = bsm_price
 # In[5]:
 
 if __name__ == '__main__':       
-    '''============
-    test:
-        plot Gbm paths
-    =============='''
-    gbm1 = Gbm_1d(init_state=10., drift_ratio=.03, vol_ratio=.25)
-    grid = np.linspace(0,1,100)
-    
-    plt.figure()
-    plt.title('test Gbm_1d.euler')
-    plt.xlabel('time')
-    plt.ylabel('state')
-    for i in range(5):
-        xh = gbm1.euler(grid)
-        plt.plot(grid, xh)
-        
+
         
             
     '''===============
